@@ -1,4 +1,4 @@
-<?php namespace bisect_squares;
+<?php namespace Geom;
 
 class Point {
     private $x;

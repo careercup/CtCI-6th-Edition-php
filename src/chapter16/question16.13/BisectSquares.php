@@ -1,6 +1,6 @@
-<?php namespace bisect_squares;
+<?php
 
-require_once __DIR__ . DIRECTORY_SEPARATOR . 'Line.php';
+require_once __DIR__ . '/../../lib/Line.php';
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'Square.php';
 
 class BisectSquares {
@@ -9,8 +9,8 @@ class BisectSquares {
         $center2 = $square2->getCenter();
         if ($center1 == $center2) {
             // vertical line
-            return new Line(null, $center1->getX());
+            return new \Geom\Line(null, $center1->getX());
         }
-        return Line::buildFromPoints($center1, $center2);
+        return \Geom\Line::buildFromPoints($center1, $center2);
     }
 }

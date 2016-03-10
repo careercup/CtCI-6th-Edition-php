@@ -1,6 +1,6 @@
-<?php namespace bisect_squares;
+<?php namespace Geom;
 
-require_once __DIR__ . '/../../../src/chapter16/question16.13/Line.php';
+require_once __DIR__ . '/../../src/lib/Line.php';
 
 class LineTest extends \PHPUnit_Framework_TestCase {
 

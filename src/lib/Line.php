@@ -1,4 +1,4 @@
-<?php namespace bisect_squares;
+<?php namespace Geom;
 
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'Point.php';
 

@@ -1,6 +1,6 @@
-<?php namespace bisect_squares;
+<?php namespace Geom;
 
-require_once __DIR__ . '/../../../src/chapter16/question16.13/Point.php';
+require_once __DIR__ . '/../../src/lib/Point.php';
 
 class PointTest extends \PHPUnit_Framework_TestCase {
 
