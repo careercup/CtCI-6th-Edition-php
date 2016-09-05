@@ -1,0 +1,5 @@
+This is a text file with a bunch of words. Some words are repeated and others, well, they are unique.
+That is what makes it an interesting text file, despite being a contrived one. If you can write a better
+text file, please go ahead! Just make sure you update any dependent unit tests.
+
+The End
