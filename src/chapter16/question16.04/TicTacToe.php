@@ -14,7 +14,7 @@ class TicTacToe {
         $this->board = [];
         $this->rowSums = [];
         $this->colSums = [];
-        for ($i=0; $i<$this->n; $i++) {
+        for ($i=0; $i < $this->n; $i++) {
             $this->rowSums[$i] = 0;
             $this->colSums[$i] = 0;
         }
