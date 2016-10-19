@@ -24,5 +24,7 @@ class FactorialZerosTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals(3, FactorialZeros::getTrailingZeros(18)); // 18! = 6402373705728000
         $this->assertEquals(3, FactorialZeros::getTrailingZeros(19)); // 19! = 121645100408832000
         $this->assertEquals(4, FactorialZeros::getTrailingZeros(20)); // 20! = 2432902008176640000
+        $this->assertEquals(6, FactorialZeros::getTrailingZeros(25)); // 25! = 15511210043330985984000000
+        $this->assertEquals(9, FactorialZeros::getTrailingZeros(40)); // 40! = 815915283247897734345611269596115894272000000000
     }
 }
