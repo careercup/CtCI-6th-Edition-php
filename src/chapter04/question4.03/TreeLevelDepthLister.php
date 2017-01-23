@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../../lib/BinaryTreeNode.php';
 require_once __DIR__ . '/../../lib/LinkedList.php';
 
-class BFSDepthLister {
+class TreeLevelDepthLister {
     public static function getDepths(BinaryTreeNode $n) {
         $depths = [];
         $nodes = new LinkedList();

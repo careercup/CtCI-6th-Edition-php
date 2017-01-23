@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . '/../../../src/chapter04/question4.03/BFSDepthLister.php';
 require_once __DIR__ . '/../../../src/chapter04/question4.03/DFSDepthLister.php';
+require_once __DIR__ . '/../../../src/chapter04/question4.03/TreeLevelDepthLister.php';
 
 class DepthListerTest extends PHPUnit_Framework_TestCase {
 
@@ -40,6 +40,6 @@ class DepthListerTest extends PHPUnit_Framework_TestCase {
         $expected = [$firstLevel, $secondLevel, $thirdLevel, $fourthLevel];
 
         $this->assertEquals($expected, DFSDepthLister::getDepths($firstLevel1));
-        $this->assertEquals($expected, BFSDepthLister::getDepths($firstLevel1));
+        $this->assertEquals($expected, TreeLevelDepthLister::getDepths($firstLevel1));
     }
 }
