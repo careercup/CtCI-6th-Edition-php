@@ -1,5 +1,7 @@
 # PHP Solutions to [Cracking The Coding Interview 6th Ed.](http://www.crackingthecodinginterview.com/)
 
+[![Build Status](https://travis-ci.org/careercup/CtCI-6th-Edition-php.svg?branch=master)](https://travis-ci.org/careercup/CtCI-6th-Edition-php)
+
 Dependencies: [PHPUnit](https://phpunit.de/), which can be installed either [standalone](https://phpunit.de/manual/current/en/installation.html#installation.phar) or via [Composer](https://phpunit.de/manual/current/en/installation.html#installation.composer) ([`composer.json`](composer.json) supplied).
 
 ## Running Unit Tests
