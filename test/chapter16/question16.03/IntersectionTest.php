@@ -23,8 +23,10 @@ class IntersectionTest extends PHPUnit_Framework_TestCase {
 
     public function testGetPointOfIntersectonWith2OverlappingVerticalLines() {
         $point = Intersection::getPointOfIntersecton([ 2, 0 ], [ 2, 10 ], [ 2, 8 ], [ 2, 16 ]);
-        $expected = [ 2, 10 ];
-        $this->assertEquals($expected, $point);
+        $x = $point[0];
+        $y = $point[1];
+        $this->assertEquals(2, $x, 'x coordinate is incorrect');
+        $this->assertTrue($y >= 8 && $y <= 10, 'y coordinate is out of range');
     }
 
     public function testGetPointOfIntersectonWith2NonOverlappingVerticalLines() {
