@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter03/question3.1/ThreeStackArray.php';
 
-class ThreeStackArrayTest extends \PHPUnit_Framework_TestCase {
+class ThreeStackArrayTest extends \PHPUnit\Framework\TestCase {
 
     public function testThreeStackArray() {
         $stack = new ThreeStackArray(30);

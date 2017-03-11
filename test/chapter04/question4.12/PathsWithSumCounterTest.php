@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../../../src/chapter04/question4.12/PathsWithSumCounter.php';
 require_once __DIR__ . '/../../../src/chapter04/question4.12/PathsWithSumCounterBruteForce.php';
 
-class PathsWithSumCounterTest extends \PHPUnit_Framework_TestCase {
+class PathsWithSumCounterTest extends \PHPUnit\Framework\TestCase {
 
     public function testCountPaths() {
         $n1 = new BinaryTreeNode(1);

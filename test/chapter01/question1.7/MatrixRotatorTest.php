@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter01/question1.7/MatrixRotator.php';
 
-class MatrixRotatorTest extends \PHPUnit_Framework_TestCase {
+class MatrixRotatorTest extends \PHPUnit\Framework\TestCase {
 
     public function testRotate1x1Matrix() {
         $matrix = [[1]];

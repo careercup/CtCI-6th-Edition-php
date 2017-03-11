@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter01/question1.8/ZeroMatrix.php';
 
-class ZeroMatrixTest extends \PHPUnit_Framework_TestCase {
+class ZeroMatrixTest extends \PHPUnit\Framework\TestCase {
 
     public function testZeroMatrixWithZeroedTopRow() {
         $matrix = [

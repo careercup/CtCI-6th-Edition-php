@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.08/EnglishInt.php';
 
-class EnglishIntTest extends \PHPUnit_Framework_TestCase {
+class EnglishIntTest extends \PHPUnit\Framework\TestCase {
 
     public function getTestCases() {
         return [

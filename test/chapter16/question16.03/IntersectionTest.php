@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.03/Intersection.php';
 
-class IntersectionTest extends \PHPUnit_Framework_TestCase {
+class IntersectionTest extends \PHPUnit\Framework\TestCase {
 
     public function testGetPointOfIntersecton() {
         $point = Intersection::getPointOfIntersecton([ 0, 0 ], [ 4, 4 ], [ 0, 4 ], [ 4, 0 ]);

@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter03/question3.6/AnimalShelter.php';
 
-class AnimalShelterTest extends \PHPUnit_Framework_TestCase {
+class AnimalShelterTest extends \PHPUnit\Framework\TestCase {
 
     public function testAnimalShelter() {
         $shelter = new AnimalShelter();

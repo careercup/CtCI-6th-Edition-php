@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter08/question8.01/TripleStep.php';
 
-class TripleStepTest extends \PHPUnit_Framework_TestCase {
+class TripleStepTest extends \PHPUnit\Framework\TestCase {
 
     public function testGetNumberOfWaysToClimbZeroSteps() {
         // There is exactly 1 way to climb zero steps. i.e. not to do it

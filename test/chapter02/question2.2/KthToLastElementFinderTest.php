@@ -2,7 +2,7 @@
 $baseDir = __DIR__ . '/../../../src/chapter02/question2.2';
 require_once $baseDir . '/KthToLastElementFinder.php';
 
-class KthToLastElementFinderTest extends \PHPUnit_Framework_TestCase {
+class KthToLastElementFinderTest extends \PHPUnit\Framework\TestCase {
     protected $linkedList;
     protected $values;
 

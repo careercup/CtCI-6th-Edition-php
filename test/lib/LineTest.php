@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../../src/lib/Line.php';
 
-class LineTest extends \PHPUnit_Framework_TestCase {
+class LineTest extends \PHPUnit\Framework\TestCase {
 
     public function testToString() {
         $this->assertEquals('y = x', (string) new Line(1, 0));

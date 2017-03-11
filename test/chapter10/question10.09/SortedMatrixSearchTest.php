@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter10/question10.09/SortedMatrixSearch.php';
 
-class SortedMatrixSearchTest extends \PHPUnit_Framework_TestCase {
+class SortedMatrixSearchTest extends \PHPUnit\Framework\TestCase {
 
     public function testSortAlternatingPeaksAndValleys() {
         $matrix = [

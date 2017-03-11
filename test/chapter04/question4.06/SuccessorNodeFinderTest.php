@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter04/question4.06/SuccessorNodeFinder.php';
 
-class SuccessorNodeFinderTest extends \PHPUnit_Framework_TestCase {
+class SuccessorNodeFinderTest extends \PHPUnit\Framework\TestCase {
 
     public function testFindSuccessor() {
         $n1 = new BinaryTreeNodeWithParent(1);

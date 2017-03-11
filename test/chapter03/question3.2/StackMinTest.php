@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter03/question3.2/StackMin.php';
 
-class StackMinTest extends \PHPUnit_Framework_TestCase {
+class StackMinTest extends \PHPUnit\Framework\TestCase {
 
     public function testPushAndPop() {
         $stack = new StackMin();

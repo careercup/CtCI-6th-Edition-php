@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter01/question1.5/OneAwayChecker.php';
 
-class OneAwayCheckerTest extends \PHPUnit_Framework_TestCase {
+class OneAwayCheckerTest extends \PHPUnit\Framework\TestCase {
 
     public function testIsOneOrZeroAway1() {
         $this->assertTrue(OneAwayChecker::isOneOrZeroAway('pale', 'ple'));

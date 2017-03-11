@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter07/question7.10/Game.php';
 
-class MineSweeperTest extends \PHPUnit_Framework_TestCase {
+class MineSweeperTest extends \PHPUnit\Framework\TestCase {
 
     public function testWinningGame() {
         $bombs = [ new Point(2,2), new Point(2,3), new Point(4,5) ];

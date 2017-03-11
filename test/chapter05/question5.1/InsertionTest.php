@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter05/question5.1/Insertion.php';
 
-class InsertionTest extends \PHPUnit_Framework_TestCase {
+class InsertionTest extends \PHPUnit\Framework\TestCase {
 
     public function testInsert() {
          $n = 0b10000000000;

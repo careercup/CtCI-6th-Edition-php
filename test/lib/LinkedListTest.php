@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../src/lib/LinkedList.php';
 
-class LinkedListTest extends \PHPUnit_Framework_TestCase {
+class LinkedListTest extends \PHPUnit\Framework\TestCase {
     public function testLinkedList() {
         $list = new LinkedList();
         $this->assertEquals(0, $list->getSize());

@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter05/question5.4/NextNumber.php';
 
-class NextNumberTest extends \PHPUnit_Framework_TestCase {
+class NextNumberTest extends \PHPUnit\Framework\TestCase {
 
     public function testGetPreviousAndNextNumbersWithSameNumberOfOneBits() {
         $this->assertEquals([ 2, 8 ], NextNumber::getPreviousAndNextNumbersWithSameNumberOfOneBits(4));

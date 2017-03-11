@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter07/question7.10/RandomPointGenerator.php';
 
-class RandomPointGeneratorTest extends \PHPUnit_Framework_TestCase {
+class RandomPointGeneratorTest extends \PHPUnit\Framework\TestCase {
 
     public function testRandomPointGenerator() {
         $count = 8;

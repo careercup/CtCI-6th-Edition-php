@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter04/question4.09/BinarySearchTreeSequenceCalculator.php';
 
-class BinarySearchTreeSequenceCalculatorTest extends \PHPUnit_Framework_TestCase {
+class BinarySearchTreeSequenceCalculatorTest extends \PHPUnit\Framework\TestCase {
 
     public function testGetSequencesWithThreeNodes() {
         $n1 = new BinaryTreeNode(1);

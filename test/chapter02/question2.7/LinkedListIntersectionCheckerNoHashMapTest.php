@@ -2,7 +2,7 @@
 $baseDir = __DIR__ . '/../../../src/chapter02/question2.7';
 require_once $baseDir . '/LinkedListIntersectionCheckerNoHashMap.php';
 
-class LinkedListIntersectionCheckerNoHashMapTest extends \PHPUnit_Framework_TestCase {
+class LinkedListIntersectionCheckerNoHashMapTest extends \PHPUnit\Framework\TestCase {
 
     public function testGetIntersectingNode() {
         $a1 = new Node("one");

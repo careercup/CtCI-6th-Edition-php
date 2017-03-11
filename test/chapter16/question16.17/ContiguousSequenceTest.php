@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.17/ContiguousSequence.php';
 
-class ContiguousSequenceTest extends \PHPUnit_Framework_TestCase {
+class ContiguousSequenceTest extends \PHPUnit\Framework\TestCase {
 
     public function testGetLargestSum() {
         $arr = [ 2, -8, 3, -2, 4, -10 ];

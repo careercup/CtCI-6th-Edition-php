@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter04/question4.11/BinaryTreeNodeWithRandomSelection.php';
 
-class BinaryTreeNodeWithRandomSelectionTest extends \PHPUnit_Framework_TestCase {
+class BinaryTreeNodeWithRandomSelectionTest extends \PHPUnit\Framework\TestCase {
     private $tree;
     private $n1;
     private $n2;

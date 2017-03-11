@@ -2,7 +2,7 @@
 $baseDir = __DIR__ . '/../../../src/chapter02/question2.3';
 require_once $baseDir . '/MiddleNodeDeleter.php';
 
-class MiddleNodeDeleterTest extends \PHPUnit_Framework_TestCase {
+class MiddleNodeDeleterTest extends \PHPUnit\Framework\TestCase {
     protected $linkedList;
     protected $values;
     protected $expectedValues;

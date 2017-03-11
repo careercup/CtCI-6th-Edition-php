@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.01/XORNumberSwapper.php';
 
-class XORNumberSwapperTest extends \PHPUnit_Framework_TestCase {
+class XORNumberSwapperTest extends \PHPUnit\Framework\TestCase {
 
     public function testSwap() {
         $a = 23762;

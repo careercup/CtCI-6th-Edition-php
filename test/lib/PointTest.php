@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../../src/lib/Point.php';
 
-class PointTest extends \PHPUnit_Framework_TestCase {
+class PointTest extends \PHPUnit\Framework\TestCase {
 
     public function testToString() {
         $point = new Point(8, 5);

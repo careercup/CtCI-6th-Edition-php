@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter03/question3.3/SizedStack.php';
 
-class SizedStackTest extends \PHPUnit_Framework_TestCase {
+class SizedStackTest extends \PHPUnit\Framework\TestCase {
 
     public function testSizedStack() {
         $stack = new SizedStack();

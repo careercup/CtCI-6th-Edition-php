@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter05/question5.3/BitFlipper.php';
 
-class BitFlipperTest extends \PHPUnit_Framework_TestCase {
+class BitFlipperTest extends \PHPUnit\Framework\TestCase {
 
     public function testFlipBit() {
         $this->assertEquals(8, BitFlipper::flipBitToWin(1775));

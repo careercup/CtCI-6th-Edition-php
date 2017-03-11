@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.15/MasterMind.php';
 
-class MasterMindTest extends \PHPUnit_Framework_TestCase {
+class MasterMindTest extends \PHPUnit\Framework\TestCase {
 
     public function testGetMoveResult() {
         $guess = [ 'G', 'G', 'R', 'R' ];

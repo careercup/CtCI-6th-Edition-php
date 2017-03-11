@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter03/question3.3/RandomAccessSizedStack.php';
 
-class RandomAccessSizedStackTest extends \PHPUnit_Framework_TestCase {
+class RandomAccessSizedStackTest extends \PHPUnit\Framework\TestCase {
 
     public function testRandomAccessSizedStack() {
         $stack = new RandomAccessSizedStack();

@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter10/question10.08/BitVector.php';
 
-class BitVectorTest extends \PHPUnit_Framework_TestCase {
+class BitVectorTest extends \PHPUnit\Framework\TestCase {
 
     public function testBitVector() {
         $bitVector = new BitVector();

@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter01/question1.6/StringCompressor.php';
 
-class StringCompressorTest extends \PHPUnit_Framework_TestCase {
+class StringCompressorTest extends \PHPUnit\Framework\TestCase {
 
     public function testCompress() {
         $this->assertEquals('a2b1c5a3', StringCompressor::compress('aabcccccaaa'));

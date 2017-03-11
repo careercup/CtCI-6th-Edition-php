@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.14/BestLine.php';
 
-class BestLineTest extends \PHPUnit_Framework_TestCase {
+class BestLineTest extends \PHPUnit\Framework\TestCase {
 
     public function testBestLine() {
         $points = [

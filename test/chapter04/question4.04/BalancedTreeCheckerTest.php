@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter04/question4.04/BalancedTreeChecker.php';
 
-class BalancedTreeCheckerTest extends \PHPUnit_Framework_TestCase {
+class BalancedTreeCheckerTest extends \PHPUnit\Framework\TestCase {
 
     public function testIsBalanced() {
         $n1 = new BinaryTreeNode("one");

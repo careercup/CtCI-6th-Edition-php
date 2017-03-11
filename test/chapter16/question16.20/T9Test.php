@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.20/T9.php';
 
-class T9Test extends \PHPUnit_Framework_TestCase {
+class T9Test extends \PHPUnit\Framework\TestCase {
 
     public function testGetT9Words() {
         $t9 = new T9(__DIR__ . DIRECTORY_SEPARATOR . 'test_word_list.txt');

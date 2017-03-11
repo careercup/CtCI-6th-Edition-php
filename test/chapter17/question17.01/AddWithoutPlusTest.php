@@ -5,7 +5,7 @@ if (!defined('PHP_INT_MIN')) {
     define('PHP_INT_MIN', -PHP_INT_MAX - 1);
 }
 
-class AddWithoutPlusTest extends \PHPUnit_Framework_TestCase {
+class AddWithoutPlusTest extends \PHPUnit\Framework\TestCase {
 
     public function getTestCases() {
         $testCases = [];

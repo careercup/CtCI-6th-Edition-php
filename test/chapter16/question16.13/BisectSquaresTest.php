@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../../../src/chapter16/question16.13/BisectSquares.php';
 
-class BisectSquaresTest extends \PHPUnit_Framework_TestCase {
+class BisectSquaresTest extends \PHPUnit\Framework\TestCase {
 
     public function testGetBisectingLine() {
         $square1 = new Square(new \Geom\Point(0, 0), 2);

@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter08/question8.07/PermutationsWithoutDupsCalculator.php';
 
-class PermutationsWithoutDupsCalculatorTest extends \PHPUnit_Framework_TestCase {
+class PermutationsWithoutDupsCalculatorTest extends \PHPUnit\Framework\TestCase {
 
     public function testGetZeroLetterPermutations() {
         $permutations = PermutationsWithoutDupsCalculator::getPermutations('');

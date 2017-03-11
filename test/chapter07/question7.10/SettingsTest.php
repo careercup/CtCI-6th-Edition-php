@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter07/question7.10/Settings.php';
 
-class SettingsTest extends \PHPUnit_Framework_TestCase {
+class SettingsTest extends \PHPUnit\Framework\TestCase {
 
     public function testSettings() {
         $options = [

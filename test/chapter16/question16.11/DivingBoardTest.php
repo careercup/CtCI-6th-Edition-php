@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.11/DivingBoard.php';
 
-class DivingBoardTest extends \PHPUnit_Framework_TestCase {
+class DivingBoardTest extends \PHPUnit\Framework\TestCase {
 
     public function testGetPossibleLengthsK5() {
         $k = 5;

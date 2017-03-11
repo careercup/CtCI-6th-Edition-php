@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter08/question8.02/RobotInAGrid.php';
 
-class RobotInAGridTest extends \PHPUnit_Framework_TestCase {
+class RobotInAGridTest extends \PHPUnit\Framework\TestCase {
 
     public function testRobotInAGrid3x3() {
         $grid = [

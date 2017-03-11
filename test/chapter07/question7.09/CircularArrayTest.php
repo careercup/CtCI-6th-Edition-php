@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter07/question7.09/CircularArray.php';
 
-class CircularArrayTest extends \PHPUnit_Framework_TestCase {
+class CircularArrayTest extends \PHPUnit\Framework\TestCase {
 
     public function testCircularArrayRotation() {
         $arr = new CircularArray();

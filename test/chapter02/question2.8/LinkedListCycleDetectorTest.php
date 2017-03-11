@@ -2,7 +2,7 @@
 $baseDir = __DIR__ . '/../../../src/chapter02/question2.8';
 require_once $baseDir . '/LinkedListCycleDetector.php';
 
-class LinkedListCycleDetectorTest extends \PHPUnit_Framework_TestCase {
+class LinkedListCycleDetectorTest extends \PHPUnit\Framework\TestCase {
 
     public function testFindBeginningOfCycleWithNoCycle() {
         $n1 = new Node("one");

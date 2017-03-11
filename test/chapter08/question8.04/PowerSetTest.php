@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter08/question8.04/PowerSet.php';
 
-class PowerSetTest extends \PHPUnit_Framework_TestCase {
+class PowerSetTest extends \PHPUnit\Framework\TestCase {
 
     public function testGetSubsetsWithZeroElements() {
         $set = [];

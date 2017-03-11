@@ -2,7 +2,7 @@
 $baseDir = __DIR__ . '/../../../src/chapter02/question2.5';
 require_once $baseDir . '/SumListReversed.php';
 
-class SumListReversedTest extends \PHPUnit_Framework_TestCase {
+class SumListReversedTest extends \PHPUnit\Framework\TestCase {
 
     public function testSum() {
         $a1 = new Node(6);

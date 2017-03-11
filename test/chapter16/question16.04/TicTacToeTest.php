@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.04/TicTacToe.php';
 
-class TicTacToeTest extends \PHPUnit_Framework_TestCase {
+class TicTacToeTest extends \PHPUnit\Framework\TestCase {
 
     public function testIsXWinnerVertical() {
         $ticTacToe = new TicTacToe();

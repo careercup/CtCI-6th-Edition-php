@@ -2,7 +2,7 @@
 $baseDir = __DIR__ . '/../../../src/chapter02/question2.4';
 require_once $baseDir . '/LinkedListPartitioner.php';
 
-class LinkedListPartitionerTest extends \PHPUnit_Framework_TestCase {
+class LinkedListPartitionerTest extends \PHPUnit\Framework\TestCase {
     protected $linkedList;
     protected $values;
 

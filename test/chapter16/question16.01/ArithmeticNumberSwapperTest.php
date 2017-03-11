@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.01/ArithmeticNumberSwapper.php';
 
-class ArithmeticNumberSwapperTest extends \PHPUnit_Framework_TestCase {
+class ArithmeticNumberSwapperTest extends \PHPUnit\Framework\TestCase {
 
     public function testSwap() {
         $a = 23762;
