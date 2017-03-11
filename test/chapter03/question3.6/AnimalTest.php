@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../../../src/chapter03/question3.6/Cat.php';
 require_once __DIR__ . '/../../../src/chapter03/question3.6/Dog.php';
 
-class AnimalTest extends PHPUnit_Framework_TestCase {
+class AnimalTest extends \PHPUnit_Framework_TestCase {
 
     public function testCat() {
         $cat = new Cat("Thelma");

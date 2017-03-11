@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter17/question17.10/MajorityElement.php';
 
-class MajorityElementTest extends PHPUnit_Framework_TestCase {
+class MajorityElementTest extends \PHPUnit_Framework_TestCase {
 
     public function testGetMajorityElement() {
         $a = [ 1, 2, 5, 9, 5, 9, 5, 5, 5 ];

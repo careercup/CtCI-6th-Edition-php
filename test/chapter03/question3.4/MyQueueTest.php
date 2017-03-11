@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter03/question3.4/MyQueue.php';
 
-class MyQueueTest extends PHPUnit_Framework_TestCase {
+class MyQueueTest extends \PHPUnit_Framework_TestCase {
 
     public function testMyQueue() {
         $myQueue = new MyQueue();

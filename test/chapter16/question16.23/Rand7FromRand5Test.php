@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.23/Rand7FromRand5.php';
 
-class Rand7FromRand5Test extends PHPUnit_Framework_TestCase {
+class Rand7FromRand5Test extends \PHPUnit_Framework_TestCase {
 
     public function testRand7() {
         $n = 7;

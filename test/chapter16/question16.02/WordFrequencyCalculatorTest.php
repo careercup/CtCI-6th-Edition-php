@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.02/WordFrequencyCalculator.php';
 
-class WordFrequencyCalculatorTest extends PHPUnit_Framework_TestCase {
+class WordFrequencyCalculatorTest extends \PHPUnit_Framework_TestCase {
 
     public function testGetFrequency() {
         $wordFrequencyCalculator = new WordFrequencyCalculator(__DIR__ . DIRECTORY_SEPARATOR . 'book.txt');

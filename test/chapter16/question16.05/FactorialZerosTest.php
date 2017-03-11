@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.05/FactorialZeros.php';
 
-class FactorialZerosTest extends PHPUnit_Framework_TestCase {
+class FactorialZerosTest extends \PHPUnit_Framework_TestCase {
 
     public function testGetTrailingZeros() {
         $this->assertEquals(0, FactorialZeros::getTrailingZeros(1)); // 1! = 1

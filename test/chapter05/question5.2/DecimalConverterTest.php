@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter05/question5.2/DecimalConverter.php';
 
-class DecimalConverterTest extends PHPUnit_Framework_TestCase {
+class DecimalConverterTest extends \PHPUnit_Framework_TestCase {
 
     public function getTestCases() {
         return [

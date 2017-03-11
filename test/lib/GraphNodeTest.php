@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../src/lib/GraphNode.php';
 
-class GraphNodeTest extends PHPUnit_Framework_TestCase {
+class GraphNodeTest extends \PHPUnit_Framework_TestCase {
 
     public function testGraphNode() {
         $node1 = new GraphNode('Miles');

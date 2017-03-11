@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.21/SumSwap.php';
 
-class SumSwapTest extends PHPUnit_Framework_TestCase {
+class SumSwapTest extends \PHPUnit_Framework_TestCase {
 
     public function testFindValuesToSwapForSameSum() {
         $arr1 = [ 4, 1, 2, 1, 1, 2 ];

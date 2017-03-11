@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.26/Calculator.php';
 
-class CalculatorTest extends PHPUnit_Framework_TestCase {
+class CalculatorTest extends \PHPUnit_Framework_TestCase {
 
     public function testCalculate() {
         $expression = '2 * 3 + 5 / 6 * 3 + 15';

@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.06/SmallestDifference.php';
 
-class SmallestDifferenceTest extends PHPUnit_Framework_TestCase {
+class SmallestDifferenceTest extends \PHPUnit_Framework_TestCase {
 
     public function testGetSmallestDifferenceBookTestCase() {
         $a = [ 1, 3, 15, 11, 2 ];

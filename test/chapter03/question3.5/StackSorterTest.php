@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter03/question3.5/StackSorter.php';
 
-class StackSorterTest extends PHPUnit_Framework_TestCase {
+class StackSorterTest extends \PHPUnit_Framework_TestCase {
 
     public function testSort() {
         $stack = [];

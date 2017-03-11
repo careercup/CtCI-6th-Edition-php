@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter08/question8.06/TowersOfHanoi.php';
 
-class TowersOfHanoiTest extends PHPUnit_Framework_TestCase {
+class TowersOfHanoiTest extends \PHPUnit_Framework_TestCase {
 
     public function testTowersOfHanoiWithOneRing() {
         $towersOfHanoi = new TowersOfHanoi(1);

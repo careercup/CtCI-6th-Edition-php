@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter10/question10.02/AnagramGrouper.php';
 
-class AnagramGrouperTest extends PHPUnit_Framework_TestCase {
+class AnagramGrouperTest extends \PHPUnit_Framework_TestCase {
 
     public function testGroupAnagrams() {
         $a = [

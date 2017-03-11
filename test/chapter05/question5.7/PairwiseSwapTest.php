@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter05/question5.7/PairwiseSwap.php';
 
-class PairwiseSwapTest extends PHPUnit_Framework_TestCase {
+class PairwiseSwapTest extends \PHPUnit_Framework_TestCase {
 
     public function testSwap() {
         $this->assertEquals(5, PairwiseSwap::swap(10));

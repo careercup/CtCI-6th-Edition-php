@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter08/question8.11/CoinCalculator.php';
 
-class CoinCalculatorTest extends PHPUnit_Framework_TestCase {
+class CoinCalculatorTest extends \PHPUnit_Framework_TestCase {
 
     /**
      * @dataProvider getTestCases

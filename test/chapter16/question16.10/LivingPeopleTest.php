@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../../../src/chapter16/question16.10/HashMapLivingPeople.php';
 require_once __DIR__ . '/../../../src/chapter16/question16.10/SortingLivingPeople.php';
 
-class LivingPeopleTest extends PHPUnit_Framework_TestCase {
+class LivingPeopleTest extends \PHPUnit_Framework_TestCase {
 
     public function testGetYearWithMostLivingPeople() {
         $people = [

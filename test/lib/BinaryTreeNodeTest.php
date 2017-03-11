@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../src/lib/BinaryTreeNode.php';
 
-class BinaryTreeNodeTest extends PHPUnit_Framework_TestCase {
+class BinaryTreeNodeTest extends \PHPUnit_Framework_TestCase {
 
     public function testBinaryTreeNode() {
         $node1 = new BinaryTreeNode('Dizzy');

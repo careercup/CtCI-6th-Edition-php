@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter10/question10.01/SortedMerge.php';
 
-class SortedMergeTest extends PHPUnit_Framework_TestCase {
+class SortedMergeTest extends \PHPUnit_Framework_TestCase {
 
     public function testMerge1() {
         $a = [ 1, 3, 5, null, null, null ];

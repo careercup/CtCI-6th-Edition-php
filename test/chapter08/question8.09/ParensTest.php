@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter08/question8.09/Parens.php';
 
-class ParensTest extends PHPUnit_Framework_TestCase {
+class ParensTest extends \PHPUnit_Framework_TestCase {
 
     public function testGetParenCombinationsWithOnePairOfParens() {
         $combinations = Parens::getParenCombinations(1);

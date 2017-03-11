@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.16/SubSort.php';
 
-class SubSortTest extends PHPUnit_Framework_TestCase {
+class SubSortTest extends \PHPUnit_Framework_TestCase {
 
     public function testGetRangeIndexes() {
         $arr = [ 1, 2, 4, 7, 10, 11, 7, 12, 6, 7, 16, 18, 19 ];

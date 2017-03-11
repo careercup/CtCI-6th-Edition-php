@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter05/question5.5/Debugger.php';
 
-class DebuggerTest extends PHPUnit_Framework_TestCase {
+class DebuggerTest extends \PHPUnit_Framework_TestCase {
 
     public function testIsPowerOfTwo() {
         $powersOfTwo = [ 1, 2, 4, 8, 16, 32, 64 ];

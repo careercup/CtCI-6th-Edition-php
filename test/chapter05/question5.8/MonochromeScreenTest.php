@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter05/question5.8/MonochromeScreen.php';
 
-class MonochromeScreenTest extends PHPUnit_Framework_TestCase {
+class MonochromeScreenTest extends \PHPUnit_Framework_TestCase {
 
     public function testDrawLineOn16x16Screen() {
         // 16x16 screen

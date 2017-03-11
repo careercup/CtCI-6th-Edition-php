@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter04/question4.07/BuildOrderFactory.php';
 
-class BuildOrderFactoryTest extends PHPUnit_Framework_TestCase {
+class BuildOrderFactoryTest extends \PHPUnit_Framework_TestCase {
 
     public function testGetBuildOrder() {
         $projects = [ "a", "b", "c", "d", "e", "f" ];

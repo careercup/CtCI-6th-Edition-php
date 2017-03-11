@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter04/question4.05/BinarySearchTreeChecker.php';
 
-class BinarySearchTreeCheckerTest extends PHPUnit_Framework_TestCase {
+class BinarySearchTreeCheckerTest extends \PHPUnit_Framework_TestCase {
     public function testIsBinarySearchTree() {
         $n1 = new BinaryTreeNode(1);
         $n2 = new BinaryTreeNode(2);

@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter07/question7.10/Move.php';
 
-class MoveTest extends PHPUnit_Framework_TestCase {
+class MoveTest extends \PHPUnit_Framework_TestCase {
 
     public function testToString() {
         $move = new Move(2, 1);

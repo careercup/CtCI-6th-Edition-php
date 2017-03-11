@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter08/question8.12/QueenArrangementsCalculator.php';
 
-class QueenArrangementsCalculatorTest extends PHPUnit_Framework_TestCase {
+class QueenArrangementsCalculatorTest extends \PHPUnit_Framework_TestCase {
 
     public function testGetQueenArrangements() {
         $arrangements = QueenArrangementsCalculator::getQueenArrangements();

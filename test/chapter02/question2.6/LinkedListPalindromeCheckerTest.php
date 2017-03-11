@@ -2,7 +2,7 @@
 $baseDir = __DIR__ . '/../../../src/chapter02/question2.6';
 require_once $baseDir . '/LinkedListPalindromeChecker.php';
 
-class LinkedListPalindromeCheckerTest extends PHPUnit_Framework_TestCase {
+class LinkedListPalindromeCheckerTest extends \PHPUnit_Framework_TestCase {
 
     public function testIsPalindrome() {
         $list = new LinkedList();

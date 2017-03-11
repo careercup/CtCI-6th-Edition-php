@@ -2,7 +2,7 @@
 $baseDir = __DIR__ . '/../../../src/chapter02/question2.5';
 require_once $baseDir . '/SumList.php';
 
-class SumListTest extends PHPUnit_Framework_TestCase {
+class SumListTest extends \PHPUnit_Framework_TestCase {
 
     public function testSum() {
         $a1 = new Node(7);

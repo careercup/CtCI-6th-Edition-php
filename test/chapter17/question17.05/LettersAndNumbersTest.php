@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter17/question17.05/LettersAndNumbers.php';
 
-class LettersAndNumbersTest extends PHPUnit_Framework_TestCase {
+class LettersAndNumbersTest extends \PHPUnit_Framework_TestCase {
 
     public function testGetLongestSubArrayOfEqualLettersAndNumbersFromBeginning() {
         $arr = [ 'a', 'b', 0, 6, 'c', 'd', 'e', 'f' ];

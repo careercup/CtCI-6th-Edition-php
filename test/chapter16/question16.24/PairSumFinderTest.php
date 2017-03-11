@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.24/PairSumFinder.php';
 
-class PairSumFinderTest extends PHPUnit_Framework_TestCase {
+class PairSumFinderTest extends \PHPUnit_Framework_TestCase {
 
     public function testFindPairsWithSumOf14() {
         $arr = [ 1, 10, 4, -1, 9, 2, 11, 80, 14, 15, 0, 12, 5, 9, -70, 5 ];

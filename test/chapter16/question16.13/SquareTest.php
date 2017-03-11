@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../../../src/chapter16/question16.13/Square.php';
 
-class SquareTest extends PHPUnit_Framework_TestCase {
+class SquareTest extends \PHPUnit_Framework_TestCase {
 
     public function testToString() {
         $square = new Square(new \Geom\Point(8, 5), 3);

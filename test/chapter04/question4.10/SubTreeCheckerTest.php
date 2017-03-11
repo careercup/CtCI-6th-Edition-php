@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter04/question4.10/SubTreeChecker.php';
 
-class SubTreeCheckerTest extends PHPUnit_Framework_TestCase {
+class SubTreeCheckerTest extends \PHPUnit_Framework_TestCase {
 
     public function testIsSubTree() {
         $t1n1 = new BinaryTreeNode(1);

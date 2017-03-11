@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter16/question16.25/LRUCache.php';
 
-class LRUCacheTest extends PHPUnit_Framework_TestCase {
+class LRUCacheTest extends \PHPUnit_Framework_TestCase {
 
     public function testLRUCacheSizeFive() {
         $cache = new LRUCache(5);

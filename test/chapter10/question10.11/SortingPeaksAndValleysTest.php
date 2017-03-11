@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter10/question10.11/SortingPeaksAndValleys.php';
 
-class SortingPeaksAndValleysTest extends PHPUnit_Framework_TestCase {
+class SortingPeaksAndValleysTest extends \PHPUnit_Framework_TestCase {
 
     public function testSortAlternatingPeaksAndValleys() {
         $nums = [ 5, 3, 1, 2, 3 ];

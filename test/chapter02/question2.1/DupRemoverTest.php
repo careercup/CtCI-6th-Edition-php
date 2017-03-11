@@ -4,7 +4,7 @@ require_once $baseDir . '/HashTableDupRemover.php';
 require_once $baseDir . '/DoublePointerDupRemover.php';
 require_once $baseDir . '/BackwardScanningDupRemover.php';
 
-class DupRemoverTest extends PHPUnit_Framework_TestCase {
+class DupRemoverTest extends \PHPUnit_Framework_TestCase {
     protected $linkedList;
     protected $values;
     protected $uniqueValues;

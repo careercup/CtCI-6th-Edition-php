@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter17/question17.11/WordDistance.php';
 
-class WordDistanceTest extends PHPUnit_Framework_TestCase {
+class WordDistanceTest extends \PHPUnit_Framework_TestCase {
 
     public function testGetWordDistance() {
         $file = __DIR__ . DIRECTORY_SEPARATOR . 'words.txt';

@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter04/question4.01/RouteBetweenNodes.php';
 
-class RouteBetweenNodesTest extends PHPUnit_Framework_TestCase {
+class RouteBetweenNodesTest extends \PHPUnit_Framework_TestCase {
 
     public function testRouteExists() {
         $n1 = new StatefulGraphNode("one");

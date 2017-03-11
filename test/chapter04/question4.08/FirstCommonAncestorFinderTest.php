@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../../src/chapter04/question4.08/FirstCommonAncestorFinder.php';
 
-class FirstCommonAncestorFinderTest extends PHPUnit_Framework_TestCase {
+class FirstCommonAncestorFinderTest extends \PHPUnit_Framework_TestCase {
 
     public function testFindFirstCommonAncestorWithTwoLevelTree() {
         $n1 = new BinaryTreeNode(1);
