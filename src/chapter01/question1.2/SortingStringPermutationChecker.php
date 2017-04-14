@@ -9,8 +9,6 @@ class SortingStringPermutationChecker {
         $charArray2 = str_split($str2);
         sort($charArray1);
         sort($charArray2);
-        $sortedStr1 = implode('', $charArray1);
-        $sortedStr2 = implode('', $charArray2);
-        return $sortedStr1 === $sortedStr2 ? true : false;
+        return implode($charArray1) === implode($charArray2);
     }
 }
