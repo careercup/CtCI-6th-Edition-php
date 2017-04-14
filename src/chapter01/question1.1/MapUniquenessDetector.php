@@ -2,13 +2,11 @@
 
 class MapUniquenessDetector {
     public static function isUnique($str) {
-        $charMap = [];
-        for ($i=0, $length=strlen($str); $i<$length; $i++) {
-            $char = $str[$i];
-            if (array_key_exists($char, $charMap)) {
+        $charMap = array_count_values(str_split($str));
+        for ($i = 0, $length = strlen($str); $i < $length; ++$i) {
+            if ($charMap[$str[$i]] > 1) {
                 return false;
             }
-            $charMap[$char] = 1;
         }
         return true;
     }
