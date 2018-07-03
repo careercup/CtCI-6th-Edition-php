@@ -34,4 +34,8 @@ class OneAwayCheckerTest extends \PHPUnit\Framework\TestCase {
     public function testIsOneOrZeroAway8() {
         $this->assertFalse(OneAwayChecker::isOneOrZeroAway('pale', 'paleolithic'));
     }
+    
+     public function testIsOneOrZeroAway9() {
+        $this->assertFalse(OneAwayChecker::isOneOrZeroAway('plext', 'plat'));
+    }
 }
