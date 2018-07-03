@@ -38,7 +38,7 @@ class OneAwayChecker {
                 if (++$diffCount > 1) {
                     return false;
                 }
-                $i++; // advance the cursor on the longer string an extra step because we found a diff
+                $j--; // advance the cursor on the longer string an extra step because we found a diff
             }
         }
         return true;
